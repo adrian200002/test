@@ -1,0 +1,26 @@
+@import "/src/styles/variables";
+
+.tools {
+  padding: 0 22px;
+  &__heading {
+    display: flex;
+    align-items: center;
+    padding: 22px 0;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.9px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+  }
+
+  &__toggle {
+    cursor: pointer;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+}

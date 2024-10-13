@@ -1,0 +1,66 @@
+@import "/src/styles/variables";
+
+.world {
+  padding: 0 18px 0 32px;
+  height: calc(100% - 138px);
+  position: relative;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.9px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+  }
+
+  &__presets {
+    &-icons {
+      display: flex;
+      gap: 18px;
+      cursor: pointer;
+    }
+  }
+
+  &__preset {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+    & h1 {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16.71px;
+      letter-spacing: 0.02em;
+      color: $secondary;
+    }
+  }
+
+  &__new {
+    box-sizing: border-box;
+    position: absolute;
+    padding-left: 21px;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 56px;
+    background: linear-gradient(180.67deg, #ff1a35 27.47%, #a01f2e 99.42%);
+    display: flex;
+    align-items: center;
+
+    &-title {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16.71px;
+      letter-spacing: 0.02em;
+      color: $secondary;
+    }
+  }
+}

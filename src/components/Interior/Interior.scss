@@ -1,0 +1,79 @@
+@import "/src/styles/variables";
+
+.interior {
+  height: calc(100% - 138px);
+  padding: 0 32px;
+  position: relative;
+  &__heading {
+    display: flex;
+    gap: 11px;
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.9px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+  }
+
+  &__subtitle {
+    padding: 28px 0 22px 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.48px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+  }
+
+  &__property {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.51px;
+    letter-spacing: 0.02em;
+    color: $third;
+  }
+
+  &__value {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 8px 8px 16px;
+    background: #111216;
+
+    & span {
+      color: $secondary;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 15.51px;
+      letter-spacing: 0.02em;
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+  }
+
+  &__save {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180.67deg, #ff1a35 27.47%, #a01f2e 99.42%);
+    width: 520px;
+    height: 56px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.71px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+    border: none;
+
+    & img {
+      margin-left: 21px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  box-sizing: border-box;
+  gap: 40px;
+  height: 63px;
+  padding: 23px 0 0 32px;
+
+  &__link {
+    height: 16px;
+  }
+}
+
+// .active img {
+//   display: inline;
+//   fill: red;
+// }

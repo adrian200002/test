@@ -1,0 +1,91 @@
+@import "/src/styles/variables";
+
+.drop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  &__property {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.51px;
+    letter-spacing: 0.02em;
+    color: $third;
+  }
+
+  &__value {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.51px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__model {
+    &-value {
+      padding: 17px 25px 17px 15px;
+      border: 2px solid $forth;
+    }
+  }
+
+  &__target {
+    &-value {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 17px 13px 17px 15px;
+      border: 2px solid $forth;
+      width: 189px;
+
+      & img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &__animation {
+    &-value {
+      display: flex;
+      gap: 5px;
+    }
+    &-dict {
+      padding: 17px 89px 17px 15px;
+      border: 2px solid $forth;
+    }
+    &-clip {
+      padding: 17px 73px 17px 14px;
+      border: 2px solid $forth;
+    }
+  }
+
+  & button {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.51px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+    border: none;
+    height: 56px;
+    width: 260px;
+  }
+
+  &__copy {
+    position: absolute;
+    bottom: -70px;
+    left: -22px;
+    background: linear-gradient(180.67deg, #ff1a35 27.47%, #a01f2e 99.42%);
+  }
+
+  &__edit {
+    position: absolute;
+    bottom: -70px;
+    right: -22px;
+    background: $primary;
+  }
+}

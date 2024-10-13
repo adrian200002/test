@@ -1,0 +1,64 @@
+@import "/src/styles/variables";
+
+.drop-pew {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 58px;
+  }
+
+  &__property {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.51px;
+    letter-spacing: 0.02em;
+    color: $third;
+  }
+  &__value {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.51px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+
+    &-model {
+      padding: 17px 66px 17px 12px;
+      border: 2px solid $forth;
+    }
+    &-coords {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 8px 8px 13px;
+      border: 2px solid $forth;
+    }
+    &-rot {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    &-anim {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      & div:nth-child(1) {
+        padding: 17px 89px 17px 15px;
+        border: 2px solid $forth;
+      }
+      & div:nth-child(2) {
+        padding: 17px 73px 17px 15px;
+        border: 2px solid $forth;
+      }
+    }
+  }
+
+  &__icons-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 11px 8px 9px;
+    background: #111216;
+  }
+}

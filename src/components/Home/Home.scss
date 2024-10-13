@@ -1,0 +1,7 @@
+@import "/src/styles/variables";
+
+.home {
+  &__title {
+    color: $secondary;
+  }
+}

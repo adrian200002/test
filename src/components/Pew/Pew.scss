@@ -1,0 +1,71 @@
+@import "/src/styles/variables";
+
+.pew {
+  height: calc(100% - 138px);
+  position: relative;
+  padding: 0 22px 0 32px;
+
+  &__heading {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    gap: 14px;
+  }
+  &__title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.9px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+  }
+
+  &__item {
+    &-heading {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      height: 55px;
+
+      & img:nth-child(2) {
+        cursor: pointer;
+      }
+    }
+    &-title {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 17.9px;
+      letter-spacing: 0.02em;
+      color: $secondary;
+    }
+    &-icons {
+      display: flex;
+      align-items: center;
+      gap: 23px;
+      margin-left: 196px;
+    }
+  }
+
+  &__new {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 170px;
+    color: $secondary;
+    background: linear-gradient(180.67deg, #ff1a35 27.47%, #a01f2e 99.42%);
+    border: none;
+    width: 100%;
+    width: 520px;
+    height: 56px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.71px;
+    letter-spacing: 0.02em;
+    bottom: 0;
+    left: 0;
+
+    & img {
+      margin-left: 22px;
+    }
+  }
+}

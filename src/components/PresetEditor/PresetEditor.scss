@@ -1,0 +1,114 @@
+@import "/src/styles/variables";
+
+.editor {
+  position: relative;
+  height: calc(100% - 168px);
+  padding: 0 18px 0 32px;
+  &__editing {
+    margin-bottom: 20px;
+  }
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.09px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+    margin: 30px 0;
+  }
+  &__id {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 20px 15px;
+    border: 2px solid $forth;
+
+    & input {
+      background-color: $forth;
+      border: none;
+      color: $secondary;
+
+      &::placeholder {
+        color: $secondary;
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    &-title {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19.09px;
+      letter-spacing: 0.02em;
+      color: $secondary;
+      margin-bottom: 10px;
+    }
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 2px solid $forth;
+      height: 50px;
+      box-sizing: border-box;
+      & h2 {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15.51px;
+        letter-spacing: 0.02em;
+        color: $secondary;
+        margin-left: 15px;
+        line-height: 9px;
+      }
+    }
+    &-icons {
+      display: flex;
+      gap: 8px;
+
+      & img {
+        padding: 12px 10px;
+        border: 2px solid $forth;
+        margin: 7px 0;
+        cursor: pointer;
+      }
+    }
+  }
+
+  & button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.71px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: $secondary;
+    display: flex;
+    align-items: center;
+    gap: 71px;
+    position: absolute;
+    cursor: pointer;
+
+    & img {
+      margin-left: 25px;
+    }
+  }
+}
+
+.save {
+  bottom: 0;
+  left: 0;
+  width: 260px;
+  height: 56px;
+  background: linear-gradient(180.67deg, #ff1a35 27.47%, #a01f2e 99.42%);
+  border: none;
+}
+
+.cancel {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 260px;
+  height: 56px;
+  border: none;
+  background-color: #0f1014;
+}

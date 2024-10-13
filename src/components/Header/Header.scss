@@ -1,0 +1,74 @@
+@import "/src/styles/variables";
+
+.header {
+  position: relative;
+  background-color: $primary;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 75px;
+
+  &__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+  }
+
+  &__subtitle {
+    font-family: "SF Pro Display";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 9px;
+    letter-spacing: 0.02em;
+    color: gray;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 74px;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 17px;
+    margin-right: 22px;
+  }
+  &__logo {
+    position: absolute;
+    height: 100%;
+
+    &-bg {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+    }
+    &-dash {
+      position: absolute;
+      top: 25px;
+      left: 32px;
+    }
+    &-letter {
+      position: absolute;
+      top: 25px;
+      left: 39px;
+    }
+    &-gradient {
+      position: absolute;
+      background: radial-gradient(
+        circle at 0.58% 5.33%,
+        rgba(255, 26, 53, 0.2) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      );
+      left: 0;
+      top: 0;
+      width: 105px;
+      height: 91.21px;
+    }
+  }
+}

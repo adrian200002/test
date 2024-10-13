@@ -1,0 +1,50 @@
+@import "/src/styles/variables";
+
+.drop {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  & h2 {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.51px;
+    letter-spacing: 0.02em;
+    color: $third;
+  }
+
+  & span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.51px;
+    letter-spacing: 0.02em;
+    color: $secondary;
+  }
+}
+
+.coordinates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 58px;
+  padding-left: 30px;
+
+  &__copy {
+    cursor: pointer;
+  }
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding-left: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}

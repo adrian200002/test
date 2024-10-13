@@ -1,0 +1,13 @@
+@import "/src/styles/variables";
+
+.error {
+  height: 100%;
+  background-color: $primary;
+  width: 520px;
+  color: $secondary;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
