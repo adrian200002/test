@@ -9,14 +9,14 @@ const Tools = () => {
     <div className="tools">
       <div className="tools__heading">
         <div className="tools__title">
-          <img src="/icons/prop.svg" alt="" />
+          <img src="icons/prop.svg" alt="" />
           <h1>Prop tool</h1>
         </div>
         <img
           className="tools__toggle"
           style={{ transform: open ? "rotate(180deg)" : "rotate(0deg)" }}
           onClick={() => setOpen(!open)}
-          src="/icons/arrow-up.svg"
+          src="icons/arrow-up.svg"
           alt=""
         />
       </div>

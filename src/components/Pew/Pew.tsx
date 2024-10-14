@@ -8,19 +8,19 @@ const Pew = () => {
   return (
     <div className="pew">
       <div className="pew__heading">
-        <img src="/icons/pew-active.svg" alt="" />
+        <img src="icons/pew-active.svg" alt="" />
         <h1 className="pew__title">Pew spawner</h1>
       </div>
       <div className="pew__item">
         <div className="pew__item-heading">
-          <img src="/icons/pew.svg" alt="" />
+          <img src="icons/pew.svg" alt="" />
           <h2 className="pew__item-title">Chichuahua hot dogs ped</h2>
           <div className="pew__item-icons">
-            <img src="/icons/trash-can-gray.svg" alt="" />
+            <img src="icons/trash-can-gray.svg" alt="" />
             <img
               onClick={() => setOpen(!open)}
               style={{ transform: open ? "rotate(180deg)" : "rotate(0deg)" }}
-              src="/icons/arrow-up.svg"
+              src="icons/arrow-up.svg"
               alt=""
             />
           </div>
@@ -28,7 +28,7 @@ const Pew = () => {
         {open ? <DropPew /> : ""}
       </div>
       <button className="pew__new">
-        <img src="/icons/plus.svg" alt="" />
+        <img src="icons/plus.svg" alt="" />
         <span>Create new one</span>
       </button>
     </div>

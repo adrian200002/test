@@ -30,7 +30,7 @@ const Weather = () => {
   return (
     <div className="weather">
       <div className="weather__title">
-        <img src="/icons/weather.svg" alt="" />
+        <img src="icons/weather.svg" alt="" />
         <h1>Time and weathers configuration</h1>
       </div>
       <div className="container">
@@ -68,13 +68,13 @@ const Weather = () => {
           <div className="picker-container">
             <img
               onClick={handleWeatherChangeLeft}
-              src="/icons/arrow-left.svg"
+              src="icons/arrow-left.svg"
               alt=""
             />
             <span>{weatherType}</span>
             <img
               onClick={handleWeatherChangeRight}
-              src="/icons/arrow-right.svg"
+              src="icons/arrow-right.svg"
               alt=""
             />
           </div>

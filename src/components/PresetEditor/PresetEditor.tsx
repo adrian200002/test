@@ -72,7 +72,7 @@ const PresetEditor = ({ preset, setEditing, setPresets, presets }: Props) => {
             value={newName}
             onChange={handleNameChange}
           />
-          <img onClick={handleAdd} src="/icons/plus.svg" alt="" />
+          <img onClick={handleAdd} src="icons/plus.svg" alt="" />
         </form>
       </div>
       <div className="editor__list">
@@ -81,12 +81,12 @@ const PresetEditor = ({ preset, setEditing, setPresets, presets }: Props) => {
           <div key={el.id} className="editor__list-item">
             <h2>{el.name}</h2>
             <div className="editor__list-icons">
-              <img src="/icons/copy-gray.svg" alt="" />
-              <img src="/icons/eye-gray.svg" alt="" />
-              <img src="/icons/edit-gray.svg" alt="" />
+              <img src="icons/copy-gray.svg" alt="" />
+              <img src="icons/eye-gray.svg" alt="" />
+              <img src="icons/edit-gray.svg" alt="" />
               <img
                 onClick={() => handleDelete(el.id)}
-                src="/icons/trash-can-gray.svg"
+                src="icons/trash-can-gray.svg"
                 alt=""
               />
             </div>
@@ -94,11 +94,11 @@ const PresetEditor = ({ preset, setEditing, setPresets, presets }: Props) => {
         ))}
       </div>
       <button onClick={handleSave} className="save">
-        <img src="/icons/save.svg" alt="" />
+        <img src="icons/save.svg" alt="" />
         <span>Save</span>
       </button>
       <button onClick={handleCancel} className="cancel">
-        <img src="/icons/cancel.svg" alt="" />
+        <img src="icons/cancel.svg" alt="" />
         <span>Cancel</span>
       </button>
     </div>

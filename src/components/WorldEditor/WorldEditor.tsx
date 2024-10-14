@@ -84,7 +84,7 @@ const WorldEditor = () => {
       {!editingPreset ? (
         <div className="world">
           <div className="world__title">
-            <img src="/icons/world-active.svg" alt="" />
+            <img src="icons/world-active.svg" alt="" />
             <h1>World editor</h1>
           </div>
           <div className="world__presets">
@@ -92,15 +92,15 @@ const WorldEditor = () => {
               <div key={el.id} className="world__preset">
                 <h1>{el.name}</h1>
                 <div className="world__presets-icons">
-                  <img src="/icons/eye.svg" alt="" />
+                  <img src="icons/eye.svg" alt="" />
                   <img
                     onClick={() => setEditingPreset(el)}
-                    src="/icons/edit.svg"
+                    src="icons/edit.svg"
                     alt=""
                   />
                   <img
                     onClick={() => handleDelete(el.id)}
-                    src="/icons/trash-can.svg"
+                    src="icons/trash-can.svg"
                     alt=""
                   />
                 </div>
@@ -109,7 +109,7 @@ const WorldEditor = () => {
           </div>
           <div className="world__new">
             <div className="world__new-title">
-              <img src="/icons/plus.svg" alt="" />
+              <img src="icons/plus.svg" alt="" />
               <h1>Create new preset</h1>
             </div>
           </div>

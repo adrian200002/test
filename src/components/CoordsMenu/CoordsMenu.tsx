@@ -34,7 +34,7 @@ const CoordsMenu = () => {
           <img
             className="coordinates__copy"
             onClick={() => copy(coords)}
-            src="/icons/copy.svg"
+            src="icons/copy.svg"
             alt=""
           />
         </div>
@@ -46,7 +46,7 @@ const CoordsMenu = () => {
           <img
             className="coordinates__copy"
             onClick={() => copy(headingCoords)}
-            src="/icons/copy.svg"
+            src="icons/copy.svg"
             alt=""
           />
         </div>

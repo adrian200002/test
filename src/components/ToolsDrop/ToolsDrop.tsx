@@ -13,7 +13,7 @@ const ToolsDrop = () => {
         <h2 className="drop__property">Target entity</h2>
         <div className="drop__value drop__target-value">
           <span>Select</span>
-          <img src="/icons/arrow-up.svg" alt="" />
+          <img src="icons/arrow-up.svg" alt="" />
         </div>
       </div>
       <div className="drop__container">
@@ -27,7 +27,7 @@ const ToolsDrop = () => {
         <h2 className="drop__property">Bones</h2>
         <div className="drop__value drop__target-value">
           <span>Select</span>
-          <img src="/icons/arrow-up.svg" alt="" />
+          <img src="icons/arrow-up.svg" alt="" />
         </div>
       </div>
       <button className="drop__copy">Copy native</button>

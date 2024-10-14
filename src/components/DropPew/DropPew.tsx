@@ -13,7 +13,7 @@ const DropPew = () => {
         <div className="drop-pew__property">Coordinates</div>
         <div className="drop-pew__value drop-pew__value-coords">
           <span>X: -803.717 Y: 176.49, Z: 72.841</span>
-          <img src="/icons/copy.svg" alt="" />
+          <img src="icons/copy.svg" alt="" />
         </div>
       </div>
       <div className="drop-pew__container">
@@ -21,15 +21,15 @@ const DropPew = () => {
         <div className="drop-pew__value drop-pew__value-rot">
           <div className="drop-pew__icons-container">
             <span>X: 30°</span>
-            <img src="/icons/copy.svg" alt="" />
+            <img src="icons/copy.svg" alt="" />
           </div>
           <div className="drop-pew__icons-container">
             <span>X: 30°</span>
-            <img src="/icons/copy.svg" alt="" />
+            <img src="icons/copy.svg" alt="" />
           </div>
           <div className="drop-pew__icons-container">
             <span>X: 30°</span>
-            <img src="/icons/copy.svg" alt="" />
+            <img src="icons/copy.svg" alt="" />
           </div>
         </div>
       </div>

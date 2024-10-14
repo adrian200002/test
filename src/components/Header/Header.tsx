@@ -5,11 +5,11 @@ const Header = () => {
     <div className="header">
       <div className="header__logo">
         <div className="header__logo-gradient"></div>
-        <img className="header__logo-bg" src="/icons/logo-bg.svg" alt="" />
-        <img className="header__logo-dash" src="/icons/logo-dash.svg" alt="" />
+        <img className="header__logo-bg" src="icons/logo-bg.svg" alt="" />
+        <img className="header__logo-dash" src="icons/logo-dash.svg" alt="" />
         <img
           className="header__logo-letter"
-          src="/icons/logo-letter.svg"
+          src="icons/logo-letter.svg"
           alt=""
         />
       </div>
@@ -19,10 +19,10 @@ const Header = () => {
       </div>
       <div className="header__icons">
         <a href="#">
-          <img src="/icons/world.svg" alt="" />
+          <img src="icons/world.svg" alt="" />
         </a>
         <a href="https://discord.com/invite/cbdkQfseH3" target="_blank">
-          <img src="/icons/discord.svg" alt="" />
+          <img src="icons/discord.svg" alt="" />
         </a>
       </div>
     </div>
